@@ -1,0 +1,120 @@
+
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: #fafafa;
+    font-family: 'Nunito', sans-serif;
+    width: 460px;
+    height: 680px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+
+}
+
+.title{
+    margin: 12px 0;
+}
+
+.add-elements{
+    margin: 15px 0;
+}
+
+
+.input{
+    padding: 6px 4px;
+    width: 70%;
+    font-size: 15px;
+}
+
+.buton{
+    padding: 7px 14px;
+    background-color: #00b0ff;
+    border: none;
+    border-radius: 4px;
+    color: #fafafa;
+    font-size: 15px;
+}
+
+.btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 4px 4px; /* Some padding */
+    font-size: 10px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    float: right;
+    margin-right: 12px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+.btn:hover {
+    background-color: #1565c0;
+  }
+
+.element-group {
+    height: 550px;
+    overflow-y: scroll;
+  }
+
+.element-group::-webkit-scrollbar{
+    display: none;
+
+}
+
+.element-group-list {
+    padding: 15px;
+  }
+
+.element-group-list-item {
+    list-style: none;
+    padding: 10px 5px;
+    background-color: #fff;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.element-group-list-item:hover {
+    background-color: #e0e0e0;
+  }
+
+.checked {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
